@@ -1,19 +1,17 @@
   import React from 'react'
-  import sum from '../assets/product comparsion.png'
-  import sum1 from '../assets/Group 156.png'
-  import sum2 from '../assets/Group 157.png'
-  import start from '../assets/Group 88.png'
-  import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
-import sum5 from '../assets/1.png'
-import sum6 from '../assets/2.png'
-import sum7 from '../assets/3.png'
-import sum8 from '../assets/4.png'
+  import Sum from '../assets/product comparsion.png'
+  import Sum1 from '../assets/Group 156.png'
+  import Sum2 from '../assets/Group 157.png'
+  import Start from '../assets/Group 88.png'
+import Sum5 from '../assets/1.png'
+import Sum6 from '../assets/2.png'
+import Sum7 from '../assets/3.png'
+import Sum8 from '../assets/4.png'
 import '../Pages/Home.css'
   const About = () => {
     return (
       <>
-      <img src={sum} class="img-fluid w-100" alt="Banner" />
+      <img src={Sum} class="img-fluid w-100" alt="Banner" />
 
 <section class="container mt-5">
     <div class="row text-center text-md-start">
@@ -22,16 +20,16 @@ import '../Pages/Home.css'
             <button class="btn btn-outline-secondary">View More</button>
         </div>
         <div class="col-sm-6 col-md-3">
-            <img src={sum1} class="img-fluid" alt="Asgaard Sofa"/>
+            <img src={Sum1} class="img-fluid" alt="Asgaard Sofa"/>
             <h4>Asgaard Sofa</h4>
             <h5>Rs. 250,000.00</h5>
             <h6>4.5 <img src={start} class="feature-icon" /></h6>
         </div>
         <div class="col-sm-6 col-md-3">
-            <img src={sum2} class="img-fluid" alt="Outdoor Sofa Set"/>
+            <img src={Sum2} class="img-fluid" alt="Outdoor Sofa Set"/>
             <h4>Outdoor Sofa Set</h4>
             <h5>Rs. 224,000.00</h5>
-            <h6>4.5 <img src={start} class="feature-icon" /></h6>
+            <h6>4.5 <img src={Start} class="feature-icon" /></h6>
         </div>
         <div class="col-sm-6 col-md-3 d-flex flex-column align-items-center">
             <h4>Add A Product</h4>
@@ -78,22 +76,22 @@ import '../Pages/Home.css'
     <div class="container" >
         <div class="row text-center">
             <div class="col-sm-6 col-md-3">
-                <img src={sum5} class="feature-icon"/>
+                <img src={Sum5} class="feature-icon"/>
                 <h4>High Quality</h4>
                 <p>Crafted from top materials</p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src={sum6} class="feature-icon"/>
+                <img src={Sum6} class="feature-icon"/>
                 <h4>Warranty Protection</h4>
                 <p>Over 2 years</p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src={sum7} class="feature-icon"/>
+                <img src={Sum7} class="feature-icon"/>
                 <h4>Free Shipping</h4>
                 <p>Order over $150</p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src={sum8} class="feature-icon"/>
+                <img src={Sum8} class="feature-icon"/>
                 <h4>24/7 Support</h4>
                 <p>Dedicated support</p>
             </div>

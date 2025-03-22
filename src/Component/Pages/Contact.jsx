@@ -1,7 +1,6 @@
 import React from 'react'
 import sum from '../assets/contact.png'
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+
 import sum5 from '../assets/1.png'
 import sum6 from '../assets/2.png'
 import sum7 from '../assets/3.png'

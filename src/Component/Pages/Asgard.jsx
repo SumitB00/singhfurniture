@@ -1,37 +1,37 @@
 import React from 'react'
-import sum from '../assets/assgard1.png'
+import Sum from '../assets/assgard1.png'
 
-import sum2 from '../assets/chair.png'
-import star from '../assets/Group 88.png'
-import sum3 from '../assets/chair1.png'
-import sum4 from '../assets/chair2.png'
-import sum5 from '../assets/chair3.png'
-import sum6 from '../assets/chair4.png'
-import sofa from '../assets/sofa.png'
-import s1 from '../assets/img1.png'
-import s2 from '../assets/img2.png'
-import s3 from '../assets/img3.png'
-import s4 from '../assets/img4.png'
+import Sum2 from '../assets/chair.png'
+import Star from '../assets/Group 88.png'
+import Sum3 from '../assets/chair1.png'
+import Sum4 from '../assets/chair2.png'
+import Sum5 from '../assets/chair3.png'
+import Sum6 from '../assets/chair4.png'
+import Sofa from '../assets/sofa.png'
+import S1 from '../assets/img1.png'
+import S2 from '../assets/img2.png'
+import S3 from '../assets/img3.png'
+import S4 from '../assets/img4.png'
 const Asgard = () => {
   return (
     <>
     
-    <img src={sum} class="img-fluid w-100" alt="Banner" />
+    <img src={Sum} class="img-fluid w-100" alt="Banner" />
     <section className='mt-5'>
   <div className='row'>
     <div className='col-lg-4 col-md-6'>
-      <img src={sum3} className="img-fluid mx-auto d-block" alt="Sum 3" /> <br />
-      <img src={sum4} className="img-fluid mx-auto d-block" alt="Sum 4" /> <br />
-      <img src={sum5} className="img-fluid mx-auto d-block" alt="Sum 5" /> <br />
-      <img src={sum6} className="img-fluid mx-auto d-block" alt="Sum 6" /> <br />
+      <img src={Sum3} className="img-fluid mx-auto d-block" alt="Sum 3" /> <br />
+      <img src={Sum4} className="img-fluid mx-auto d-block" alt="Sum 4" /> <br />
+      <img src={Sum5} className="img-fluid mx-auto d-block" alt="Sum 5" /> <br />
+      <img src={Sum6} className="img-fluid mx-auto d-block" alt="Sum 6" /> <br />
     </div>
     <div className='col-lg-4 col-md-6'>
-      <img src={sum2} className="img-fluid" alt="Sum 2" />
+      <img src={Sum2} className="img-fluid" alt="Sum 2" />
     </div>
     <div className='col-lg-4 col-md-12'>
       <h2>Asgaard sofa</h2>
       <h3 style={{ color: "#9F9F9F" }}>Rs. 250,000.00</h3>
-      <img src={star} alt="Star Rating" /> <p style={{ color: "#9F9F9F" }}>5 Customer Reviews</p>
+      <img src={Star} alt="Star Rating" /> <p style={{ color: "#9F9F9F" }}>5 Customer Reviews</p>
       <p>Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.</p>
       <br />
       <p style={{ color: "#9F9F9F" }}>Size</p>
@@ -74,10 +74,10 @@ const Asgard = () => {
 <section className='container'>
   <div className='row'>
     <div className='col-md-6'>
-      <img src={sofa} className="img-fluid" alt="Sofa" />
+      <img src={Sofa} className="img-fluid" alt="Sofa" />
     </div>
     <div className='col-md-6'>
-      <img src={sofa} className="img-fluid" alt="Sofa" />
+      <img src={Sofa} className="img-fluid" alt="Sofa" />
     </div>
   </div>
 </section>
@@ -93,7 +93,7 @@ const Asgard = () => {
 <div class="row g-4">
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                 <div class="dropdown">
-                    <a href="/asgard"><img src={s1} alt="Syltherine" class="img-fluid"/></a>
+                    <a href="/asgard"><img src={S1} alt="Syltherine" class="img-fluid"/></a>
                     <div class="dropdown-content p-3">
                         <h3>Syltherine</h3>
                         <p>Outdoor bar table and stool</p>
@@ -103,7 +103,7 @@ const Asgard = () => {
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                 <div class="dropdown">
-                    <a href="/asgard"><img src={s2} alt="Leviosa" class="img-fluid"/></a>
+                    <a href="/asgard"><img src={S2} alt="Leviosa" class="img-fluid"/></a>
                     <div class="dropdown-content p-3">
                         <h3>Leviosa</h3>
                         <p>Stylish cafe chair</p>
@@ -113,7 +113,7 @@ const Asgard = () => {
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                 <div class="dropdown">
-                    <a href="/asgard"><img src={s3} alt="Lolito" class="img-fluid"/></a>
+                    <a href="/asgard"><img src={S3} alt="Lolito" class="img-fluid"/></a>
                     <div class="dropdown-content p-3">
                         <h3>Lolito</h3>
                         <p>Luxury big sofa</p>
@@ -123,7 +123,7 @@ const Asgard = () => {
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                 <div class="dropdown">
-                    <a href="/asgard"><img src={s4} alt="Respira" class="img-fluid"/></a>
+                    <a href="/asgard"><img src={S4} alt="Respira" class="img-fluid"/></a>
                     <div class="dropdown-content p-3">
                         <h3>Respira</h3>
                         <p>Outdoor bar table and stool</p>

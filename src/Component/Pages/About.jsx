@@ -23,7 +23,7 @@ import '../Pages/Home.css'
             <img src={Sum1} class="img-fluid" alt="Asgaard Sofa"/>
             <h4>Asgaard Sofa</h4>
             <h5>Rs. 250,000.00</h5>
-            <h6>4.5 <img src={start} class="feature-icon" /></h6>
+            <h6>4.5 <img src={Start} class="feature-icon" /></h6>
         </div>
         <div class="col-sm-6 col-md-3">
             <img src={Sum2} class="img-fluid" alt="Outdoor Sofa Set"/>

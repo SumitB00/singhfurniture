@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Png from '../Component/assets/Meubel House_Logos-05.png'
+import Png from '../Component/assets/Singh Furniture Logo (2).png'
 
 import '../Component/Navigation.css'
 

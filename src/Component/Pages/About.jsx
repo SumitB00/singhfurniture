@@ -23,13 +23,13 @@ import '../Pages/Home.css'
             <img src={Sum1} class="img-fluid" alt="Asgaard Sofa"/>
             <h4>Asgaard Sofa</h4>
             <h5>Rs. 250,000.00</h5>
-            <h6>4.5 <img src={Start} class="feature-icon" /></h6>
+            <h6>4.5 <img src={Start} class="feature-icon" alt='start'/></h6>
         </div>
         <div class="col-sm-6 col-md-3">
             <img src={Sum2} class="img-fluid" alt="Outdoor Sofa Set"/>
             <h4>Outdoor Sofa Set</h4>
             <h5>Rs. 224,000.00</h5>
-            <h6>4.5 <img src={Start} class="feature-icon" /></h6>
+            <h6>4.5 <img src={Start} class="feature-icon" alt='start' /></h6>
         </div>
         <div class="col-sm-6 col-md-3 d-flex flex-column align-items-center">
             <h4>Add A Product</h4>
@@ -76,22 +76,22 @@ import '../Pages/Home.css'
     <div class="container" >
         <div class="row text-center">
             <div class="col-sm-6 col-md-3">
-                <img src={Sum5} class="feature-icon"/>
+                <img src={Sum5} class="feature-icon" alt='High Quality'/>
                 <h4>High Quality</h4>
                 <p>Crafted from top materials</p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src={Sum6} class="feature-icon"/>
+                <img src={Sum6} class="feature-icon" alt='Warranty Protection'/>
                 <h4>Warranty Protection</h4>
                 <p>Over 2 years</p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src={Sum7} class="feature-icon"/>
+                <img src={Sum7} class="feature-icon" alt='Free Shipping'/>
                 <h4>Free Shipping</h4>
                 <p>Order over $150</p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src={Sum8} class="feature-icon"/>
+                <img src={Sum8} class="feature-icon" alt='24/7 Support'/>
                 <h4>24/7 Support</h4>
                 <p>Dedicated support</p>
             </div>

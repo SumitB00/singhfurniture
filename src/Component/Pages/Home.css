@@ -52,35 +52,101 @@ html{
 }
 
 
-.hero-text{
-    width: 643px;
-    height: 443px;
-    background-color: rgb(255,243,227);
-    margin-top: 103px;
-    border-radius: 10px;
+.hero-text {
+  width: 643px;
+  height: 443px;
+  background-color: rgb(255, 243, 227);
+  margin-top: 103px;
+  border-radius: 10px;
+  padding: 30px; /* Adds padding for better spacing */
 }
 
-.hero-text p{
-    font-size: 18px;
-    font-weight: 400;
-    color:#333333;
-
-}
-.hero-text h1{
-    font-size: 52px;
-    color: #B88E2F;
-    /* font-family: Poppins; */
-    font-weight: 700;
-}
-.hero-text button{
-    width: 222px;
-    height: 54px;
-    color: white;
-    font-weight: 500;
-    border: none;
-    background-color:  #B88E2F;;
+.hero-text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
 }
 
+.hero-text h1 {
+  font-size: 52px;
+  color: #B88E2F;
+  font-weight: 700;
+}
+
+.hero-text button {
+  width: 222px;
+  height: 54px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  background-color: #B88E2F;
+  border-radius: 5px; /* Adds a small rounded corner to the button */
+}
+
+/* For medium screens (tablets) */
+@media (max-width: 1024px) {
+  .hero-text {
+      width: 80%;
+      height: auto; /* Adjust height based on content */
+      margin-top: 60px; /* Reduce margin for smaller screens */
+  }
+
+  .hero-text h1 {
+      font-size: 40px; /* Smaller font size for headings */
+  }
+
+  .hero-text p {
+      font-size: 16px; /* Adjust font size for better readability */
+  }
+
+  .hero-text button {
+      width: 180px; /* Reduce button width */
+      height: 45px; /* Adjust button height */
+  }
+}
+
+/* For smaller screens (mobile phones) */
+@media (max-width: 600px) {
+  .hero-text {
+      width: 90%; /* Take up more width on smaller screens */
+      margin-top: 30px; /* Reduce margin further */
+      padding: 20px; /* Adjust padding for mobile */
+  }
+
+  .hero-text h1 {
+      font-size: 32px; /* Further reduce heading font size */
+  }
+
+  .hero-text p {
+      font-size: 14px; /* Adjust font size for mobile readability */
+  }
+
+  .hero-text button {
+      width: 150px; /* Smaller button on mobile */
+      height: 40px; /* Adjust button height */
+  }
+}
+
+/* For very small screens (extra small mobile phones) */
+@media (max-width: 400px) {
+  .hero-text {
+      width: 95%; /* Almost full width for very small screens */
+      margin-top: 20px; /* Even smaller margin */
+  }
+
+  .hero-text h1 {
+      font-size: 28px; /* Even smaller heading font */
+  }
+
+  .hero-text p {
+      font-size: 12px; /* Smaller font size for better fit */
+  }
+
+  .hero-text button {
+      width: 120px; /* Even smaller button for small screens */
+      height: 35px; /* Adjust button height */
+  }
+}
 
 /* products */
 .product-name {

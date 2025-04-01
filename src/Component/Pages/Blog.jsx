@@ -8,6 +8,7 @@ import Sum2 from '../assets/blog2.png'
 import Sum3 from '../assets/blog3.png'
 import Sum4 from '../assets/blog4.png'
 import Sum5 from '../assets/blog5.png'
+import Accordion from 'react-bootstrap/Accordion';
 export const Blog = () => {
   return (
     <>
@@ -24,7 +25,29 @@ export const Blog = () => {
                     </p>
                     <h2>Going all-in with millennial design</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                    <a href="#" class="text-decoration-underline text-dark h5">Read More</a>
+                    <Accordion defaultActiveKey="0">
+      <Accordion.Item  style={{border:"none",borderTop:"none"}}>
+        <Accordion.Header >Read More</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+          im veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item >
+       
+        
+      </Accordion.Item>
+    </Accordion>
                 </div>
                 <div class="mb-5">
                     <img src={Write} class="img-fluid" alt="Blog Image"/>
@@ -35,7 +58,29 @@ export const Blog = () => {
                     </p>
                     <h2>Exploring new ways of decorating</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                    <a href="#" class="text-decoration-underline text-dark h5">Read More</a>
+                    <Accordion defaultActiveKey="0">
+      <Accordion.Item  style={{border:"none",borderTop:"none"}}>
+        <Accordion.Header >Read More</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+          im veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item >
+       
+        
+      </Accordion.Item>
+    </Accordion>
                 </div>
                 <div>
                     <img src={Tab} class="img-fluid" alt="Blog Image"/>
@@ -46,7 +91,29 @@ export const Blog = () => {
                     </p>
                     <h2>Handmade pieces that took time to make</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                    <a href="#" class="text-decoration-underline text-dark h5">Read More</a>
+                    <Accordion defaultActiveKey="0">
+      <Accordion.Item  style={{border:"none",borderTop:"none"}}>
+        <Accordion.Header >Read More</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+          im veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item >
+       
+        
+      </Accordion.Item>
+    </Accordion>
                 </div>
             </div>
             <div class="col-lg-4 col-md-5 col-sm-12">

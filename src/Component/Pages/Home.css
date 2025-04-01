@@ -45,6 +45,11 @@
     font-size: 2rem; /* Adjust text size for smaller screens */
   }
 }
+html{
+  overflow-x: hidden;
+  scrollbar-width: none;
+  font-family: Poppins, sans-serif;
+}
 
 
 .hero-text{

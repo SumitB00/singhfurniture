@@ -16,7 +16,7 @@ import '../Pages/Home.css'
 <section class="container mt-5">
     <div class="row text-center text-md-start">
         <div class="col-sm-6 col-md-3 d-flex flex-column align-items-center">
-            <h4>Go to Product Page for more Products</h4>
+             <center><h4>Go to Product Page for more Products</h4></center>
             <button class="btn btn-outline-secondary">View More</button>
         </div>
         <div class="col-sm-6 col-md-3">

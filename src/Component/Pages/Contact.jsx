@@ -85,22 +85,22 @@ const Contact = () => {
     <div class="container" >
         <div class="row text-center">
             <div class="col-sm-6 col-md-3">
-                <img src={sum5} class="feature-icon"/>
+                <img src={sum5} class="feature-icon" alt='sum5'/>
                 <h4>High Quality</h4>
                 <p>Crafted from top materials</p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src={sum6} class="feature-icon"/>
+                <img src={sum6} class="feature-icon" alt='sum6'/>
                 <h4>Warranty Protection</h4>
                 <p>Over 2 years</p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src={sum7} class="feature-icon"/>
+                <img src={sum7} class="feature-icon" alt='sum7'/>
                 <h4>Free Shipping</h4>
                 <p>Order over $150</p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src={sum8} class="feature-icon"/>
+                <img src={sum8} class="feature-icon" alt='sum8'/>
                 <h4>24/7 Support</h4>
                 <p>Dedicated support</p>
             </div>

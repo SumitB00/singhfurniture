@@ -80,22 +80,22 @@ export const Shop = () => {
     <div class="container" >
         <div class="row text-center">
             <div class="col-sm-6 col-md-3">
-                <img src={Sum5} class="feature-icon"/>
+                <img src={Sum5} class="feature-icon"  alt='sum5'/>
                 <h4>High Quality</h4>
                 <p>Crafted from top materials</p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src={Sum6} class="feature-icon"/>
+                <img src={Sum6} class="feature-icon" alt='sum6'/>
                 <h4>Warranty Protection</h4>
                 <p>Over 2 years</p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src={Sum7} class="feature-icon"/>
+                <img src={Sum7} class="feature-icon" alt='sum7'/>
                 <h4>Free Shipping</h4>
                 <p>Order over $150</p>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img src={Sum8} class="feature-icon"/>
+                <img src={Sum8} class="feature-icon" alt='sum8'/>
                 <h4>24/7 Support</h4>
                 <p>Dedicated support</p>
             </div>

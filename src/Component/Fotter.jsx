@@ -60,19 +60,19 @@ const Fotter = () => {
          </h6>
          <br />
          <p style={{fontWeight:"600",color:"black"}}>
-           <a href="#!" class="text-reset" style={{textDecoration:"none"}}>Home</a>
+           <a href="/" class="text-reset" style={{textDecoration:"none"}}>Home</a>
          </p>
          <br />
          <p style={{fontWeight:"600",color:"black"}}>
-           <a href="#!" class="text-reset"  style={{textDecoration:"none"}}>Shop</a>
+           <a href="/shop" class="text-reset"  style={{textDecoration:"none"}}>Shop</a>
          </p>
          <br />
          <p style={{fontWeight:"600",color:"black"}}>
-           <a href="#!" class="text-reset"  style={{textDecoration:"none"}}>About</a>
+           <a href="/about" class="text-reset"  style={{textDecoration:"none"}}>About</a>
          </p>
          <br />
          <p style={{fontWeight:"600",color:"black"}}>
-           <a href="#!" class="text-reset"  style={{textDecoration:"none"}}>Contact</a>
+           <a href="/contact" class="text-reset"  style={{textDecoration:"none"}}>Contact</a>
          </p>
        </div>
        

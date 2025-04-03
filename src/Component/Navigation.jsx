@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Nav, Navbar, Form, FormControl, Button } from "react-bootstrap";
-import { FaSearch, FaShoppingCart } from "react-icons/fa";
+import { FaSearch, FaShoppingCart, FaHeart } from "react-icons/fa";
 import Png from "../Component/assets/Singh Furniture Logo (2).png";
 import "../Component/Navigation.css";
 
@@ -45,9 +45,12 @@ function Navigation() {
               </Form>
             ) : (
               <Nav.Link href="#" className="me-3" onClick={() => setShowSearch(true)}>
-                <FaSearch size={20} />
+                <FaSearch size={18} />
               </Nav.Link>
             )}
+            <Nav.Link href="#" className="me-3">
+              <FaHeart size={20} />
+            </Nav.Link>
             <Nav.Link href="#">
               <FaShoppingCart size={20} />
             </Nav.Link>

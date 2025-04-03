@@ -36,9 +36,11 @@ export const Shop = () => {
                 <div class="dropdown">
                     <a href="/asgard"><img src={sum2} alt="Leviosa" class="img-fluid"/></a>
                     <div class="dropdown-content p-3">
+                        
                         <h3>Leviosa</h3>
                         <p>Stylish cafe chair</p>
                         <p>Rp- 2.500.000</p>
+
                     </div>
                 </div>
             </div>

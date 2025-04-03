@@ -11,6 +11,7 @@ import Sum8 from '../assets/4.png'
 
 import '../Pages/Home.css'
 export const Shop = () => {
+    
   return (
     <>
     <img src={Sum} class="img-fluid w-100" alt="Banner" />

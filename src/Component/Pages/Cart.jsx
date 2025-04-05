@@ -25,7 +25,7 @@ export const Cart = () => {
           <Table responsive bordered className="align-middle" >
             <thead style={{ backgroundColor: "#fdf4ea" }}>
               <tr>
-                <th style={{borderStyle:"none"}}>Product</th>
+                <th >Product</th>
                 <th>Price</th>
                 <th style={{ width: "100px" }}>Quantity</th>
                 <th>Subtotal</th>
@@ -77,7 +77,7 @@ export const Cart = () => {
               <span className="fw-bold">Total</span>
               <span className="fw-bold text-warning">Rs. {subtotal.toLocaleString()}</span>
             </div>
-            <Button variant="outline-dark" className="w-100">
+            <Button variant="outline-dark" className="w-100" href='/checkout'>
               Check Out
             </Button>
           </div>

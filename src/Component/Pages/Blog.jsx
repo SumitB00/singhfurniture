@@ -26,7 +26,7 @@ export const Blog = () => {
                     <h2>Going all-in with millennial design</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                     <Accordion defaultActiveKey="0">
-      <Accordion.Item  style={{border:"none",borderTop:"none"}}>
+      <Accordion.Item  style={{border:"none",borderTop:"none",borderLeft:"none",borderRight:"none"}}>
         <Accordion.Header >Read More</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -59,7 +59,7 @@ export const Blog = () => {
                     <h2>Exploring new ways of decorating</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                     <Accordion defaultActiveKey="0">
-      <Accordion.Item  style={{border:"none",borderTop:"none"}}>
+      <Accordion.Item  style={{border:"none",borderTop:"none",borderLeft:"none",borderRight:"none"}}>
         <Accordion.Header >Read More</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -92,7 +92,7 @@ export const Blog = () => {
                     <h2>Handmade pieces that took time to make</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                     <Accordion defaultActiveKey="0">
-      <Accordion.Item  style={{border:"none",borderTop:"none"}}>
+      <Accordion.Item  style={{border:"none",borderTop:"none" ,borderBottom:"none"}}>
         <Accordion.Header >Read More</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

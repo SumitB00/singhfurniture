@@ -6,6 +6,7 @@ import { Shop } from "./Pages/Shop";
 import Contact from './Pages/Contact';
 import Asgard from '../Component/Pages/Asgard'
 import { Blog } from './Pages/Blog';
+import { Cart } from './Pages/Cart';
 export default function Routers() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ export default function Routers() {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/asgard" element={<Asgard/>} />
         <Route path="/blog" element={<Blog/>} />
+        <Route path="/cart" element={<Cart/>} />
       </Routes>
     </BrowserRouter>
   );

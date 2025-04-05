@@ -130,7 +130,7 @@ function Navigation() {
           <hr />
           <h5 className="text-end">Subtotal: Rs. {subtotal.toLocaleString()}</h5>
           <div className="d-grid gap-2 mt-3">
-            <Button variant="dark">Checkout</Button>
+            <Button variant="dark" href="/checkout">Checkout</Button>
             <Button variant="outline-secondary" href="/cart">Go to Cart</Button>
           </div>
         </Offcanvas.Body>

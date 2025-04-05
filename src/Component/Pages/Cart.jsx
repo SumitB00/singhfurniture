@@ -22,10 +22,10 @@ export const Cart = () => {
       <Row>
         {/* Cart Table */}
         <Col lg={8} sm={12}>
-          <Table responsive bordered className="align-middle none">
+          <Table responsive bordered className="align-middle" >
             <thead style={{ backgroundColor: "#fdf4ea" }}>
               <tr>
-                <th>Product</th>
+                <th style={{borderStyle:"none"}}>Product</th>
                 <th>Price</th>
                 <th style={{ width: "100px" }}>Quantity</th>
                 <th>Subtotal</th>

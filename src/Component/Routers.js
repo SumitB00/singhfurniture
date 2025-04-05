@@ -7,6 +7,7 @@ import Contact from './Pages/Contact';
 import Asgard from '../Component/Pages/Asgard'
 import { Blog } from './Pages/Blog';
 import { Cart } from './Pages/Cart';
+import Checkout from './Checkout';
 export default function Routers() {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ export default function Routers() {
         <Route path="/asgard" element={<Asgard/>} />
         <Route path="/blog" element={<Blog/>} />
         <Route path="/cart" element={<Cart/>} />
+        <Route path="/checkout" element={<Checkout/>} />
       </Routes>
     </BrowserRouter>
   );

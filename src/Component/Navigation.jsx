@@ -12,7 +12,7 @@ function Navigation() {
   const handleSearch = (e) => {
     e.preventDefault();
     console.log("Searching for:", query);
-    // Add your search logic here
+    
   };
 
   return (

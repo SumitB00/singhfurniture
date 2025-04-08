@@ -22,9 +22,19 @@ import Share from '../assets/Share.png'
 import Slider1 from '../assets/slider1.png'
 import Slider2 from '../assets/slider2.png'
 import Carousel from 'react-bootstrap/Carousel';
+import B1 from '../assets/Rectangle 36 (1).png'
+import B2 from "../assets/Rectangle 37 (1).png"
+import B3 from "../assets/Rectangle 38 (1).png"
+import B4 from "../assets/Rectangle 39.png"
+import B5 from "../assets/Rectangle 40 (2).png"
+import B6 from "../assets/Rectangle 41 (1).png"
+import B7 from "../assets/Rectangle 42 (2).png"
+import B8 from "../assets/Rectangle 43(1).png"
+import B9 from '../assets/Rectangle 44 (1).png' 
 
-
+ 
 const Home = () => {
+    
   return (
     <>
       {/* hero section */}

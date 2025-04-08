@@ -67,7 +67,7 @@ import '../Pages/Home.css'
         <div class="col-sm-6 col-md-3 text-center text-md-start">
             <h3>Warranty</h3>
             <p>1 Year Manufacturing Warranty</p>
-            <button class="btn btn-warning w-100 w-md-auto">Add To Cart</button>
+            <button class="btn btn-warning w-100 w-md-auto"  >Add To Cart</button>
         </div>
     </div>
 </section>
